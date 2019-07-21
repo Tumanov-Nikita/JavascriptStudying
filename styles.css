@@ -1,0 +1,20 @@
+.gameField {
+	border: 2px solid black;
+}
+
+td{
+	border: 1px solid black;
+	background-image: url(https://www.aduvan.ru/wp-content/uploads/photo-gallery/water/water-texture_\(23\).jpg);
+	height: 50px;
+	width: 50px;
+	size: 50px;
+}
+
+tr{
+	border: 2px solid black;
+}
+
+table{
+	float: left;
+	margin: 10px;
+}
