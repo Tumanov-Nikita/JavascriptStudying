@@ -1,9 +1,10 @@
 .gameField {
-	border: 2px solid black;
+	border: 3px solid black;
+
 }
 
 .waterCell{
-	border: 1px solid black;
+	border: 2px solid black;
 	background-image: url(https://www.aduvan.ru/wp-content/uploads/photo-gallery/water/water-texture_\(23\).jpg);
 	height: 50px;
 	width: 50px;
@@ -11,8 +12,17 @@
 }
 
 .markingCell{
-	border: 1px solid black;
+	border: 3px solid black;
 	padding-left: 10px;
+}
+
+.footer{
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	background-color: rgb(119, 136, 153);
+  	color: white;
 }
 
 tr{
@@ -20,7 +30,7 @@ tr{
 }
 
 td{
-	border: 1px solid black;
+	border: 2px solid black;
 	height: 50px;
 	width: 50px;
 	size: 50px;
@@ -28,18 +38,17 @@ td{
 
 table{
 	float: left;
-	margin: 10px;
+	margin-top: 10px;
+	margin-left: 5px;
+	border-collapse: collapse;
 }
 
 p{
 	size: 20px;
 }
 
-.buttonRestart{
-	position:absolute;
-	bottom: :0; 
-	left:0;
-	size: 100px;
-	height: 50px;
-	width: 50px;
+button{
+	margin: 20px;
+	height: 35px; 
 }
+
