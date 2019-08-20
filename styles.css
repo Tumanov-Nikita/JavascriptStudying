@@ -21,12 +21,12 @@
 
 .footer{
 	position: fixed;
-  	left: 0;
-  	bottom: 0;
-  	width: 100%;
-  	background-color: white;
-  	color: white;
-  	border: 2px solid black;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+	color: white;
+	border: 2px solid black;
 }
 
 tr{
@@ -87,4 +87,26 @@ table{
 	margin-bottom: 0px;
 	font-size: 20px;
 	margin-left: 10px;
+}
+
+#shipImage.rotate90,
+#shipImage.rotate270 {
+	width: 100px;
+	height: 800px
+	margin: 7px auto;
+	float: left;
+}
+#shipImage {
+	transform-origin: top left;
+	-webkit-transform-origin: top left;
+	-ms-transform-origin: top left;
+	margin: 7px auto;
+	float: left;
+}
+.rotated90 {
+	transform: rotate(90deg) translateY(-100%);
+	-webkit-transform: rotate(90deg) translateY(-100%);
+	-ms-transform: rotate(90deg) translateY(-100%);
+	margin: 7px auto;
+	float: left;
 }
